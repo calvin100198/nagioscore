@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
 			return 1;
 		}
 
-		if (!strcmp(arg, "--name")) {
+		if (strcmp(arg, "--name")) {
 			name = opt;
 		}
 	}
